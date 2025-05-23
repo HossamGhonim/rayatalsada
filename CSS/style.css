@@ -217,7 +217,7 @@ body{
     color: inherit; /* or your preferred color */
 }
 .client-img {
-    width: 500px;
+    width: 270px;
     height: 400px;
     object-fit: cover;
     border-radius: 0px;
@@ -226,8 +226,8 @@ body{
 
 @media only screen and (max-width: 600px) {
 .client-img {
-    width: 270px;
-}
+  width: 500px;
+    height: 400px;}
 }
 
 
