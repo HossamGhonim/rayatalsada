@@ -223,11 +223,13 @@ body{
     border-radius: 0px;
 }
 
+
 @media only screen and (max-width: 600px) {
 .client-img {
     width: 270px;
 }
 }
+
 
 
 
