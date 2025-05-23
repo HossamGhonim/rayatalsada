@@ -1,0 +1,86 @@
+@font-face {
+    font-family: myFont;
+    src: url(../Fonts/Changa-Bold.ttf);
+}
+@font-face {
+  font-family: sec;
+  src: url(../Fonts/Vazirmatn-Bold.ttf);
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: myFont;
+    scroll-behavior: smooth;
+
+}
+
+
+/* Navigation Buttons Styles */
+.nav-buttons {
+  text-align: center;
+  padding-top: 200px; /* Ensure it's below the header */
+}
+
+.nav-buttons .btn {
+  margin: 10px;
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.nav-buttons .btn:hover {
+  background-color: #003f7f;
+}
+
+/* Active Button Style */
+.nav-buttons .btn.active {
+  background-color: #003f7f; /* Darker color for the active button */
+}
+
+/* Styling for the sections */
+.section {
+  display: none; /* Hide sections initially */
+  opacity: 0;
+  transition: opacity 1s ease-out, transform 1s ease-out;
+  transform: translateX(100%); /* Start from right */
+  margin: 50px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.section.show {
+  display: block; /* Show sections when toggled */
+  opacity: 1;
+  transform: translateX(0); /* Slide to original position */
+}
+
+.section h2 {
+  text-align: center;
+  color: #0056b3;
+}
+
+/* Header styles with image */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+}
+
+.header img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
