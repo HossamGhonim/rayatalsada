@@ -224,13 +224,11 @@ body{
 }
 
 @media only screen and (max-width: 600px) {
-.client-img {
-   width: 270px;
-    height: 400px;   
-  
+    .client-img {
+        width: 290px;
+        height: 400px;
+    }
 }
-}
-
 
 
 /*The about part*/
